@@ -70,6 +70,7 @@ def skill_yunqi(*args):
         治疗help＋
         疲劳－
     """
+<<<<<<< HEAD
 def skill_dazuo(*args):
     """
     运气（瑜伽、易筋经）
@@ -78,6 +79,10 @@ def skill_dazuo(*args):
         疲劳－
     """
 SKILLS = {"combat": skill_combat,"dazuo":skill_dazuo ,"yuqi":skill_yunqi}
+=======
+
+SKILLS = {"combat": skill_combat,"dazuo":skill_dazuo ,"yuqi",skill_yunqi}
+>>>>>>> 85ea64fc8f98546afb3de134e560da8909a25659
 
 
 
@@ -120,7 +125,11 @@ def resolve_combat(combat_handler, actiondict):
 
              if target: 
                  taction, tchar, ttarget = actiondict[target.id][isub]
+<<<<<<< HEAD
 
+=======
+             print("107")
+>>>>>>> 85ea64fc8f98546afb3de134e560da8909a25659
 
              if action == "hit":
                  if taction == "parry" and ttarget == char:

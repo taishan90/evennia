@@ -1,5 +1,72 @@
 # -*- coding:utf-8 -*-  
 """
+<<<<<<< HEAD
+=======
+        self.db.level = 1    等级
+        self.db.HP = 100 生命
+        self.db.XP = 0 经验值
+
+        self.db.STR = randint(1, 10) 力量
+        self.db.dex=randint(1, 10) 灵敏度
+
+        self.db.combat = randint(5, 10) 战斗力
+
+        精 hp 健康
+        气 内力
+        神 疲劳度
+另外还有：http://www.spls.org/forums/t15768/
+气 ： 113/ 113 (100%) 内力： 54 / 54 (+3)
+神 ： 100/ 100 (100%) 法力： 23 / 33 (+1)
+气和神的定义和用处可以参考 help basic，这里先简单的介绍
+一下。气代表的是人的肉体，人必须有气才能生存。它会随年龄
+变化，也受到内力影响。神就是人的精神，学习任何新的技能、
+知识、武功都需要耗费神。内力是人的能量，当你学了基本内功
+及特殊内功后应尽快将气转为内力储备起来。法力则是比较抽象
+的精神上的能量，有了法力才能施展法术。祥见 help stats。
+
+相关命令：exercise, meditate, enforce, enchant
+
+learn
+skills
+    SKILLS = {"combat": skill_combat}
+            "瑜伽",
+
+dazuo
+
+yunqi 瑜伽
+    精 hp 健康
+        气 内力
+       ➕ 加神100 疲劳度 降低
+
+skill
+指定技能
+    打坐
+        增加气 降低神 减少一部分hp
+
+
+    读书：
+        诗歌
+        增加智力
+        疲劳
+
+
+        外功
+        治疗help＋
+        疲劳－
+
+    精气神
+
+
+    拳法
+    棍法
+    剑法
+
+practise
+练习
+你练习瑜伽头部运动
+
+
+>>>>>>> 85ea64fc8f98546afb3de134e560da8909a25659
 
 
 

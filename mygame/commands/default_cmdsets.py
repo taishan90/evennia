@@ -14,7 +14,10 @@ own cmdsets by inheriting from them or directly from `evennia.CmdSet`.
 
 """
 from commands.combat import CmdAttack
+<<<<<<< HEAD
 from commands.practice import Cmdpractice
+=======
+>>>>>>> 85ea64fc8f98546afb3de134e560da8909a25659
 
 from evennia import default_cmds
 from typeclasses.npcshop import CmdBuildShop
@@ -38,7 +41,10 @@ class CharacterCmdSet(default_cmds.CharacterCmdSet):
         self.add(CmdAttack())
 
         self.add(CmdBuildShop())
+<<<<<<< HEAD
         self.add(Cmdpractice())
+=======
+>>>>>>> 85ea64fc8f98546afb3de134e560da8909a25659
 
 class PlayerCmdSet(default_cmds.PlayerCmdSet):
     """
