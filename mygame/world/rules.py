@@ -121,11 +121,7 @@ def resolve_combat(combat_handler, actiondict):
 
              if target: 
                  taction, tchar, ttarget = actiondict[target.id][isub]
-<<<<<<< HEAD
 
-=======
-             print("107")
->>>>>>> 85ea64fc8f98546afb3de134e560da8909a25659
 
              if action == "hit":
                  if taction == "parry" and ttarget == char:
