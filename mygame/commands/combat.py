@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-  
 """
-
+1
         self.db.level = 1    等级
         self.db.HP = 100 生命
         self.db.XP = 0 经验值
