@@ -1,7 +1,6 @@
 # -*- coding:utf-8 -*-  
 """
-<<<<<<< HEAD
-=======
+
         self.db.level = 1    等级
         self.db.HP = 100 生命
         self.db.XP = 0 经验值
@@ -64,9 +63,6 @@ skill
 practise
 练习
 你练习瑜伽头部运动
-
-
->>>>>>> 85ea64fc8f98546afb3de134e560da8909a25659
 
 
 
